@@ -1,0 +1,75 @@
+header.flex{
+    justify-content: space-between;
+    padding-inline: 10%;
+    padding-top: 1.2rem;
+
+    & .links .fa-solid {
+        margin-right: 0.3rem;
+    }
+
+ & .sing-in{
+    margin-inline: 1rem;
+ }
+
+  & .sing-in,
+  & .register{
+    border: 1px solid var(--bodyfont);
+    padding: 0.44rem 1rem;
+    border-radius: 55px;
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+
+  & .sing-in:hover,
+  & .register:hover,
+  & .sing-in:hover .fa-solid,
+  & .register:hover .fa-solid
+  {
+    background-color: var(--bodyfont);
+    color: var(--blue);
+    
+  }
+
+  & .cart{
+    background-color: var(--bodyfont);
+    color: var(--blue);
+    font-size: 0.9rem;
+    padding: 0.44rem 1.1rem 0.44rem 0.6rem;
+    border-radius: 55px;
+    
+  }
+  & .cart .fa-solid{
+    color:var(--blue);
+    
+  }
+
+  & .products-number {
+    position: absolute;
+    right: -8;
+    top: -8px;
+    font-size: 12px;
+    font-weight: bold;
+
+    background-color: rgb(255, 90, 123);
+    height: 18px;
+    width: 18px;
+    color: #fff;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+  }
+
+  /*=================================
+          left section (logo)
+  ==================================*/
+  & .fa-bag-shopping {
+font-size: 2rem;
+
+  }
+} 
+
+
+

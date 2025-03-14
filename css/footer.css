@@ -1,0 +1,19 @@
+footer{
+text-align: center;
+background-color: var(--foter-bg);
+border-top-left-radius:8px ;
+border-top-right-radius:8px ;
+
+
+padding-block: 1rem;
+margin-top: 3rem;
+color: white;
+font-size: 17px;
+
+
+& span{
+color: darkred;
+text-transform: capitalize;
+}
+
+}   

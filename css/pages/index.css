@@ -176,4 +176,22 @@ main section.products.flex {
 color: white;
 
 }
+     .card {
+    width: 250px; /* تحديد عرض موحد */
+    height: 400px; /* تحديد ارتفاع موحد */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+    background: white;
+}
+
+.card img {
+    width: 100%; 
+    height: 200px; /* ضبط ارتفاع موحد */
+    object-fit: cover; /* ضمان تناسب الصورة */
+} 
 }
